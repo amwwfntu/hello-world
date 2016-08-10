@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+	<div ng-app="myApp" ng-controller="myCtrl">
+		<input type="text" ng-model="firstName" />
+		<input type="text" ng-model="lastName" />
+		<p>名字：{{firstName + " " + lastName}}</p>
+		浮点计算：<p>{{1.232-1.2}}</p>
+	</div>
+
+</body>
+<script type="text/javascript">
+	var app = angular.module('myApp',[]);
+	app.controller('myCtrl',function($scope){
+		$scope.firstName='scott';
+		$scope.lastName='tom';
+	});
+</script>
+</html>
