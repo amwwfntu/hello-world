@@ -2,4 +2,4 @@
 #-*- coding:utf-8 -*-
 print 'hello world !'
 print 'hello huangweike'
-
+print 'hello amwwfntu'
